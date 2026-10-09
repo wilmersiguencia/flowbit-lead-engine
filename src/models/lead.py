@@ -9,6 +9,8 @@ class Lead:
     city: str
     state: str
 
+    category: Optional[str] = None
+
     website: Optional[str] = None
     phone: Optional[str] = None
 
